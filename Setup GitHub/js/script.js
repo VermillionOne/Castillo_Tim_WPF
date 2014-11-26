@@ -5,3 +5,8 @@ Test JS File
  */
 
 //alert ("Testing: How Now Brown Cow?");
+
+console.log("Testing the console.log");
+
+var userInput = prompt("Type in your name:");
+console.log(userInput);
