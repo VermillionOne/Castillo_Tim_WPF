@@ -1,10 +1,14 @@
-// JavaScript
+// Arrays
 
-var age = 38; //Number variable
+var muppetNames = ["Kermit", "Miss Piggy", "Gonzo", "Rizzo"]; //0,1,2,3
 
-var isStudent = false; //Boolean variable
+muppetNames[1] = "Ruff"; // change index #2 to Ruff
+muppetNames[2] = "Fozzy"; // change index #2 to Fozzy
 
-var firstName = "Tim";
+var num = 3;
 
-var phrase = 'I don\'t know. \nYou\'ll have to speak with the professor';
-// "\" is able to give a character into an alternate use, for instance, making a special character (such as the single apostrophe) into a normal character, and using the letter "n" to create a linebreak.
+console.log(muppetNames[0]);
+console.log(muppetNames[1]);
+console.log(muppetNames[2]);
+console.log(muppetNames[3]);
+console.log(muppetNames[num]); // lets me see what's in the index #3
