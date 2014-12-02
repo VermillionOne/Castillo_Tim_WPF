@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="592d6b18-1445-4651-88d3-e59e51c96b4a" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Week 1/problemSolving/Castillo_Tim_ProblemSolving.docx" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Week 1/problemSolving/counting-fingers.ai" afterPath="$PROJECT_DIR$/Week 1/problemSolving/counting-fingers.ai" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="592d6b18-1445-4651-88d3-e59e51c96b4a" name="Default" comment="" />
     <ignored path="Castillo_Tim_WPF.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
