@@ -1,6 +1,8 @@
-// Expressions - Age Example
+// Expressions - Arithmetic Operators
+// area of a triangle is (width*height)/2
 
-var yearBorn = 1988;
-var age = 2014 - yearBorn;
+var width = 3;
+var height = 9;
+var area = width * height/2;
 
-console.log(age);
+console.log(area);
