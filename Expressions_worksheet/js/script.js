@@ -6,7 +6,7 @@
 /********************************/
 
 // Sparky's age in human years
-var sparkyAge = 16;
+var sparkyAge = 6;
 //Sparky's age in dog years
 var dogYears = sparkyAge * 7;
 // Result of finding out how old Sparky is in dog years compared to human
@@ -19,9 +19,9 @@ console.log(result);
 /********************************/
 
 // Number of pizzas ordered
-var pizzas = 20;
+var pizzas = 5;
 // Number of people at party
-var people = 45;
+var people = 7;
 // Number of slices per pizza
 var slicesPerPizza = 8;
 // Number of slices of pizza per person
@@ -34,4 +34,8 @@ console.log(result2);
 // Problem #3: Slice of Pie Part II
 /********************************/
 
-//
+// Number of slices Sparky gets
+var sparkySlices = pizzas * slicesPerPizza % people;
+// Output displaying how many slices of pizza Sparky gets
+var result3 = "Sparky got " + sparkySlices + " slices of pizza.";
+console.log(result3);
