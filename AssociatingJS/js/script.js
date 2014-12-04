@@ -1,13 +1,12 @@
-// Expressions - Concatenating Strings
+// Casting
 
-var firstName = "Timothy";
-var lastName = "Castillo";
-var fullName = firstName + " " + lastName
-
-console.log(fullName);
-
-var a = 6;
-var b = 7;
-
-var result = a + b;
+var stringVar = "6";
+var result = 7 + Number(stringVar);
 console.log(result);
+
+var areaCode = 702;
+var firstPart = 882;
+var secPart = 8663;
+
+var phoneNo = "(" +String(areaCode) + ")" + String(firstPart) + "-" + String(secPart);
+console.log(phoneNo);
