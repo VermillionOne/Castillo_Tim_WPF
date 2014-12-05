@@ -18,7 +18,8 @@ var discount = prompt("What is the promotional discount percentage?");
 var salesTax = prompt("What is the sales tax?");
 //Shipping and handling cost
 var shippingCost = prompt("What is the cost of the shipping?");
-//
-
-
+//Discount applied to sale price
+salePrice = salePrice - salePrice(100*discount)
+//Different between sale price and item cost
+var initProfit = salePrice - itemCost;
 
