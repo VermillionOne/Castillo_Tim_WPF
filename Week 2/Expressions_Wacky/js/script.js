@@ -52,7 +52,7 @@ var actualCollectTime = itemCost / (minCollectTime / userCollect)
 console.log(actualCollectTime);
 
 //Displaying Results in a string
-var result = ("You will be able to buy or upgrade the " + itemName +);
+var result = ("You will be able to buy or upgrade the " + itemName + " in " + minCollectTime + " hours.");
 
 
 
