@@ -22,4 +22,3 @@ var itemCost = prompt("How much will it cost to upgrade or purchase your item?")
 
 
 
-
