@@ -6,7 +6,7 @@ Expressions_Personal Week #2
  */
 
 /******
- * How many trash bags will we go through in a certain amount of time?
+ * How many trash bags will be gone through in a certain amount of time?
  */
 
 //alert("Testing js file connection.");
@@ -17,7 +17,7 @@ console.log(bagCapacity);
 // Asking user the amount of trash used daily in pounds
 var dailyTrash = prompt("Pounds of trash gone through daily:");
 console.log(dailyTrash);
-// Amount of days for given time frame
+// Amount of days for given timeframe
 var timeFrame = prompt("Time Frame in days:");
 console.log(timeFrame);
 // Finding out the time that it takes to fill the trash bag

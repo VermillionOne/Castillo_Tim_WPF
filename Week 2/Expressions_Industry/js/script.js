@@ -7,11 +7,15 @@
 
 //alert("Test");
 
+/******
+ * What is the profit of an item after the shipping and promotional
+ * discount?
+ */
 
-//Cost of item
+//Asking for the purchasing cost of the item
 var itemCost = prompt("What is the purchasing cost of the item?");
 console.log(itemCost);
-//Sale price of item
+//Asking for the store sale price of item
 var salePrice = prompt("What is the sale price of the item?");
 console.log(salePrice);
 //What is the promotional discount?
@@ -20,7 +24,7 @@ console.log(discountPercent);
 //What is the sales tax?
 var salesTax = prompt("What is the sales tax?");
 console.log(salesTax);
-//Shipping and handling cost
+//Asking for the shipping and handling cost
 var shippingCost = prompt("What is the cost of the shipping?");
 console.log(shippingCost);
 //Discount and tax applied to sale price
@@ -32,10 +36,10 @@ console.log(afterTax);
 //Shipping and purchasing cost added together
 var totalCost = shippingCost + itemCost;
 console.log(totalCost);
-//Total Profit
+//Calculating Total Profit by subtracting total cost from sales price after the tax and discount and shipping
 var totalProfit = afterTax - totalCost;
 console.log(totalProfit);
-//Concatenating the result
+//Putting the results all in a string
 var result = ("With a purchasing cost of $" + itemCost + " and a sale price of $" + salePrice + " this item will bring in $" + totalProfit + " after a " + discountPercent + "% discount and $" + shippingCost + " in shipping costs.");
 //Displaying the result
 alert(result);

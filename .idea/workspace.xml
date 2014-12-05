@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="592d6b18-1445-4651-88d3-e59e51c96b4a" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Week 2/Expressions_Industry/js/script.js" afterPath="$PROJECT_DIR$/Week 2/Expressions_Industry/js/script.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Week 2/Expressions_Personal/js/script.js" afterPath="$PROJECT_DIR$/Week 2/Expressions_Personal/js/script.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Week 2/Expressions_Wacky/js/script.js" afterPath="$PROJECT_DIR$/Week 2/Expressions_Wacky/js/script.js" />
     </list>
     <ignored path="Castillo_Tim_WPF.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -27,10 +29,10 @@
   <component name="FileEditorManager">
     <leaf>
       <file leaf-file-name="script.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Week 2/Expressions_Wacky/js/script.js">
+        <entry file="file://$PROJECT_DIR$/Week 2/Expressions_Personal/js/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="754" max-vertical-offset="1530">
-              <caret line="66" column="0" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="585">
+              <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="9" selection-end-column="3" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -38,22 +40,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="script.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Week 2/Expressions_Personal/js/script.js">
+      <file leaf-file-name="script.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Week 2/Expressions_Industry/js/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.28994846" vertical-offset="0" max-vertical-offset="776">
-              <caret line="19" column="33" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="33" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="765">
+              <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="script.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Week 2/Expressions_Industry/js/script.js">
+      <file leaf-file-name="script.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Week 2/Expressions_Wacky/js/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="690">
-              <caret line="38" column="173" selection-start-line="38" selection-start-column="173" selection-end-line="38" selection-end-column="173" />
-              <folding />
+            <state vertical-scroll-proportion="0.57474226" vertical-offset="529" max-vertical-offset="1335">
+              <caret line="61" column="28" selection-start-line="61" selection-start-column="28" selection-end-line="61" selection-end-column="28" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -86,9 +90,9 @@
         <option value="$PROJECT_DIR$/Week 2/Expressions_Personal/index.html" />
         <option value="$PROJECT_DIR$/Week 2/Expressions_Wacky/index.html" />
         <option value="$PROJECT_DIR$/Week 2/Expressions_Industry/index.html" />
+        <option value="$PROJECT_DIR$/Week 2/Expressions_Personal/js/script.js" />
         <option value="$PROJECT_DIR$/Week 2/Expressions_Industry/js/script.js" />
         <option value="$PROJECT_DIR$/Week 2/Expressions_Wacky/js/script.js" />
-        <option value="$PROJECT_DIR$/Week 2/Expressions_Personal/js/script.js" />
       </list>
     </option>
   </component>
@@ -161,7 +165,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Expressions_Personal" />
+              <option name="myItemId" value="Expressions_Wacky" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -179,7 +183,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Expressions_Personal" />
+              <option name="myItemId" value="Expressions_Wacky" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -439,29 +443,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Week 2/Expressions_Industry/js/script.js">
+    <entry file="file://$PROJECT_DIR$/Week 2/Expressions_Personal/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="690">
-          <caret line="38" column="173" selection-start-line="38" selection-start-column="173" selection-end-line="38" selection-end-column="173" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Week 2/Expressions_Wacky/js/script.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="754" max-vertical-offset="1530">
-          <caret line="66" column="0" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="585">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="9" selection-end-column="3" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Week 2/Expressions_Personal/js/script.js">
+    <entry file="file://$PROJECT_DIR$/Week 2/Expressions_Industry/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.28994846" vertical-offset="0" max-vertical-offset="776">
-          <caret line="19" column="33" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="33" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="765">
+          <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Week 2/Expressions_Wacky/js/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.57474226" vertical-offset="529" max-vertical-offset="1335">
+          <caret line="61" column="28" selection-start-line="61" selection-start-column="28" selection-end-line="61" selection-end-column="28" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
