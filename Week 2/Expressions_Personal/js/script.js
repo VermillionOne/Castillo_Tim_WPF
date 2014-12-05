@@ -11,16 +11,16 @@ Expressions_Personal Week #2
 
 //alert("Testing js file connection.");
 
-// Trash Bag Capacity
+// Asking user for trash bag capacity
 var bagCapacity = prompt("Maximum weight your trash bag can hold in pounds:");
 console.log(bagCapacity);
-// Trash used daily
+// Asking user the amount of trash used daily in pounds
 var dailyTrash = prompt("Pounds of trash gone through daily:");
 console.log(dailyTrash);
-// Timeframe given
+// Amount of days for given time frame
 var timeFrame = prompt("Time Frame in days:");
 console.log(timeFrame);
-// Time to fill bag
+// Finding out the time that it takes to fill the trash bag
 var filledBag = bagCapacity / dailyTrash;
 console.log(filledBag);
 // How many times does this happen in given time frame?
