@@ -25,6 +25,7 @@ console.log(userCollect);
 
 //Name of Item or upgrade
 var itemName = prompt("What are you saving to buy or upgrade?");
+console.log(itemName);
 
 //Cost of item or upgrade
 var itemCost = prompt("How much will it cost to purchase or upgrade your item?");
@@ -51,7 +52,7 @@ var actualCollectTime = itemCost / (minCollectTime / userCollect)
 console.log(actualCollectTime);
 
 //Displaying Results in a string
-var result = ("You will be able to buy or upgrade ");
+var result = ("You will be able to buy or upgrade the " + itemName +);
 
 
 
