@@ -31,6 +31,10 @@ console.log(itemName);
 var itemCost = prompt("How much will it cost to purchase or upgrade your item?");
 console.log(itemCost);
 
+// Prompting the user to give current amount of material
+var currentAmount = prompt("How much material do you currently have?");
+console/log();
+
 //Total production rate
 var totalProdRate = collectors * productRate;
 console.log(totalProdRate);
