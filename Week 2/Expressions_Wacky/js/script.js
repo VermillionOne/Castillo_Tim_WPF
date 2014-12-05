@@ -7,51 +7,51 @@
 
 //alert("Test");
 
-//Number of collectors
+//Asking for the number of collectors
 var collectors = prompt("How many gold mines, elixir collectors, or dark elixir drills do you have?");
 console.log(collectors);
 
-//Individual production rate of collectors
+//Asking for the individual production rate of collectors
 var productRate = prompt("How fast do they produce the material per hour?");
 console.log(productRate);
 
-//Individual maximum capacity of collectors
+//Asking for the individual maximum capacity of collectors
 var capacity = prompt("How much can each collector hold?");
 console.log(capacity);
 
-//Rate that the user manually collects the material
+//Asking for the rate that the user manually collects the material
 var userCollect = prompt("How many hours on average between collecting your materials?");
 console.log(userCollect);
 
-//Name of Item or upgrade
+//Asking for the name of Item or upgrade
 var itemName = prompt("What are you saving to buy or upgrade?");
 console.log(itemName);
 
-//Cost of item or upgrade
+//Asking for the cost of item or upgrade
 var itemCost = prompt("How much will it cost to purchase or upgrade your item?");
 console.log(itemCost);
 
-// Prompting the user to give current amount of material
+//Prompting the user to give current amount of material
 var currentAmount = prompt("How much material do you currently have?");
 console.log(currentAmount);
 
-//Total production rate
+//Calculating for Total production rate
 var totalProdRate = collectors * productRate;
 console.log(totalProdRate);
 
-//Total Max Capacity
+//Calculating for Total Max Capacity
 var totalCapacity = capacity * collectors;
 console.log(totalCapacity);
 
-//Time for Total Max Capacity to fill
+//Calculating for Time for Total Max Capacity to fill
 var capProdTime = totalCapacity / totalProdRate;
 console.log(capProdTime);
 
-//Minimum Collection Time
+//Finding the Minimum Collection Time
 var minCollectTime = (itemCost - currentAmount) / totalProdRate;
 console.log(minCollectTime);
 
-//Actual Collection Time
+//Finding the actual Collection Time
 var actualCollectTime = itemCost / (minCollectTime / userCollect)
 console.log(actualCollectTime);
 
