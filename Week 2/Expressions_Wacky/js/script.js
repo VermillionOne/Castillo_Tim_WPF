@@ -48,7 +48,7 @@ var capProdTime = totalCapacity / totalProdRate;
 console.log(capProdTime);
 */
 //Minimum Collection Time
-var minCollectTime = itemCost / totalProdRate;
+var minCollectTime = (itemCost - currentAmount) / totalProdRate;
 console.log(minCollectTime);
 /*
 //Actual Collection Time
@@ -56,7 +56,10 @@ var actualCollectTime = itemCost / (minCollectTime / userCollect)
 console.log(actualCollectTime);
 */
 //Displaying Results in a string
-var result = ("You will be able to buy or upgrade the " + itemName + " in " + minCollectTime + " hours.");
+var result = ("You will be able to buy or upgrade the " + itemName + " in a minimum of " + minCollectTime + " hours.");
+console.log(result);
+//Outputs result in an alert window
+alert(result);
 
 
 
