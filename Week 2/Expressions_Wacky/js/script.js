@@ -9,6 +9,7 @@
 
 //Number of collectors
 var collectors = prompt("How many gold mines, elixir collectors, or dark elixir drills do you have?");
+console.log(collectors);
 //Individual production rate of collectors
 var productRate = prompt("How fast do they produce the material per hour?");
 //Individual maximum capacity of collectors
