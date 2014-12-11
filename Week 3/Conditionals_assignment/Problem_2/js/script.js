@@ -14,8 +14,8 @@ var minSize = 500;
 
 var maxSize = 800;
 
-if ((imageWidth < maxSize && imageWidth > 500) || (imageHeight < 800 && imageWidth > 500)){
-    "The image is the proper size."
+if ((imageWidth < maxSize && imageWidth > minSize) || (imageHeight < maxSize && imageHeight > minSize)){
+    var result = "The image is the proper size.";
 }else if(imageWidth > maxSize || imageHeight > maxSize){
     if(imageWidth > maxSize && imageWidth > imageHeight){
         var newImageWidth = "800";
@@ -28,4 +28,7 @@ if ((imageWidth < maxSize && imageWidth > 500) || (imageHeight < 800 && imageWid
     imageWidth = minSize;
 }
 
-var result = "The image has been adjusted to "
+(imageWidth > maxSize || imageHeight > maxSize) ? var result = "The image has been adjusted to " + newImageWidth + "px x " + newImageHeight "px." : var result  ="The image has been increased to " + newImageWidth + "px and" + newImageHeight + "px.";
+
+alert(result);
+console.log(result);
