@@ -16,8 +16,6 @@ We have four vehicles that we are able to use. Depending on the amount of people
 
 var vehicle1 = prompt("What is the first vehicle?");
 var vehicle2 = prompt("What is the second vehicle?");
-var vehicle3 = prompt("What is the third vehicle?");
-var vehicle4 = prompt("What is the fourth vehicle?");
 
 var mileage1 = prompt("What is the mileage for " + vehicle1 + "?");
 var mileage2 = prompt("What is the mileage for " + vehicle2 + "?");

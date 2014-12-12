@@ -73,7 +73,7 @@ var noTaxPrice = price - (discount/100) * price;
 // Item price with tax
 var taxPrice = noTaxPrice + (tax/100) * noTaxPrice;
 // Item name, original price and discounted prices with and without taxes used in a sentence
-var result5 = "Your " item + " was originally $" + price + ", but after a " + discount + "% discount it is now $" + noTaxPrice + " without tax and $" + taxPrice +  " with tax.";
+var result5 = "Your " + item + " was originally $" + price + ", but after a " + discount + "% discount it is now $" + noTaxPrice + " without tax and $" + taxPrice +  " with tax.";
 // console.log(noTaxPrice);
 // console.log(taxPrice);
 console.log(result5);

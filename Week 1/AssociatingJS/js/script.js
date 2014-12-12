@@ -4,7 +4,7 @@
 //console.log(yearBorn);
 
 var width = prompt("We are calculating the area of a triangle.\n\nPlease enter the width:");
-var height = prompt("Please enter the height:")
+var height = prompt("Please enter the height:");
 var area = width * height/2;
 console.log(width, height, area);
 
