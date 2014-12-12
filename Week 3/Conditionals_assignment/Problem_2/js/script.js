@@ -10,19 +10,27 @@
 // Ask the user for the width of the image in pixels
 var width = prompt("What is the width of the image in pixels?");
 console.log(width);
-
+if (width === "") {
+	var width = prompt("What is the width of the image in pixels?\n\nPlease provide a number or else this will not work.");
+};
 // Ask the user for the height of the image in pixels
-var height = prompt("What is the Height of the image?");
+var height = prompt("What is the height of the image?");
 console.log(height);
-
+if (height === "") {
+	var height = prompt("What is the height of the image in pixels?\n\nPlease provide a number or else this will not work.");
+};
 // Ask the user to set the minimum size
 var minSize = prompt("What is the minimum size the longest side must be in pixels?");
 console.log(minSize);
-
+if (minSize === "") {
+	var minSize = prompt("What is the minimum size the longest side must be in pixels?\n\nPlease provide a number or else this will not work.");
+};
 // Ask the user to set the maximum size
 var maxSize = prompt("What is the maximum size the longest side must be in pixels?");
 console.log(maxSize);
-
+if (maxSize === "") {
+	var height = prompt("What is the maximum size the longest side must be in pixels?\n\nPlease provide a number or else this will not work.");
+};
 // Determine if either side is larger than "maxSize"
 if(width > maxSize || height > maxSize){
 	// Determine which side is largest
@@ -44,7 +52,7 @@ if(width > maxSize || height > maxSize){
 		// Display the result
 		alert(result);
 		console.log(result);
-	}
+	};
 }else if(width < minSize && height < minSize){
 	// Extend width to minSize in result solution string
 	var result = "The image has been resized to " + minSize + "x" + height + " pixel resolution.";
@@ -57,4 +65,4 @@ if(width > maxSize || height > maxSize){
 	// Display the result
 	alert(result);
 	console.log(result);
-}
+};
