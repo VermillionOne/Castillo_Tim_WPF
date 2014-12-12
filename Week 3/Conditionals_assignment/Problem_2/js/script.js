@@ -10,25 +10,33 @@
 // Ask the user for the width of the image in pixels
 var width = prompt("What is the width of the image in pixels?");
 console.log(width);
+// Check variable for populated answer
 if (width === "") {
+	// if the answer is not populated, ask again
 	var width = prompt("What is the width of the image in pixels?\n\nPlease provide a number or else this will not work.");
 };
 // Ask the user for the height of the image in pixels
 var height = prompt("What is the height of the image?");
 console.log(height);
+// Check variable for populated answer
 if (height === "") {
+	// if the answer is not populated, ask again
 	var height = prompt("What is the height of the image in pixels?\n\nPlease provide a number or else this will not work.");
 };
 // Ask the user to set the minimum size
 var minSize = prompt("What is the minimum size the longest side must be in pixels?");
 console.log(minSize);
+// Check variable for populated answer
 if (minSize === "") {
+	// if the answer is not populated, ask again
 	var minSize = prompt("What is the minimum size the longest side must be in pixels?\n\nPlease provide a number or else this will not work.");
 };
 // Ask the user to set the maximum size
 var maxSize = prompt("What is the maximum size the longest side must be in pixels?");
 console.log(maxSize);
+// Check variable for populated answer
 if (maxSize === "") {
+	// if the answer is not populated, ask again
 	var height = prompt("What is the maximum size the longest side must be in pixels?\n\nPlease provide a number or else this will not work.");
 };
 // Determine if either side is larger than "maxSize"

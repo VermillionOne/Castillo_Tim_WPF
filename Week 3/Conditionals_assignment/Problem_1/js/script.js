@@ -9,13 +9,17 @@
 
 // Ask for how many can ride in the first car
 var vehicle1 = prompt("How many can ride in the first car?");
+// Check variable for populated answer
 if (vehicle1 === "") {
+	// if the answer is not populated, ask again
 	var vehicle1 = prompt("How many can ride in the first car?\n\nPlease provide a number or this will not work.");
 };
 console.log(vehicle1);
 // Ask for how many can ride in the second car
 var vehicle2 = prompt("How many can ride in the second car?");
+// Check variable for populated answer
 if (vehicle2 === "") {
+	// if the answer is not populated, ask again
 	var vehicle2 = prompt("How many can ride in the second car?\n\nPlease provide a number or this will not work.");
 };
 console.log(vehicle2);
@@ -23,7 +27,9 @@ var vehicles = parseInt(vehicle2) + parseInt(vehicle1);
 console.log(vehicles);
 // Ask for the number of passengers
 var numPassengers = prompt("How many people are going?");
+// Check variable for populated answer
 if (numPassengers === "") {
+	// if the answer is not populated, ask again
 	var numPassengers = prompt("How many people are going?\n\nPlease provide a number or this will not work.");
 };
 console.log(numPassengers);
