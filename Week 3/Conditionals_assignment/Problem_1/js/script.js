@@ -9,9 +9,15 @@
 
 // Ask for how many can ride in the first car
 var vehicle1 = prompt("How many can ride in the first car?");
+if (vehicle1 === "") {
+	var vehicle1 = prompt("How many can ride in the first car?\n\nPlease provide a number or this will not work.");
+};
 console.log(vehicle1);
 // Ask for how many can ride in the second car
 var vehicle2 = prompt("How many can ride in the second car?");
+if (vehicle2 === "") {
+	var vehicle2 = prompt("How many can ride in the second car?\n\nPlease provide a number or this will not work.");
+};
 console.log(vehicle2);
 // Ask for the number of passengers
 var numPassengers = prompt("How many people are going?");
