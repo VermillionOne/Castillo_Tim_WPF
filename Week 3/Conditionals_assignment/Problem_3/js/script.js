@@ -25,10 +25,13 @@ console.log(weatherLc);
 var dateLc = date.toLowerCase();
 console.log(dateLc);
 // Figure out if we will hook up Rudolph to the sleigh
-if(weatherLc === "true" && dateLc === "true"){
+var result = (weatherLc === "true" && dateLc === "true") ? "Rudolph, with your nose so bright, won't you guide my sleigh tonight?" : "Rudolph, you don't get to play reindeer games this time...";
+
+/*if(weatherLc === "true" && dateLc === "true"){
 	var result = "Rudolph, with your nose so bright, won't you guide my sleigh tonight?";
 }else{
 	var result = "Rudolph, you don't get to play reindeer games this time..."
-}
+}*/
+
 alert(result);
 console.log(result);
