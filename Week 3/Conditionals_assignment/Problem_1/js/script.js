@@ -5,6 +5,8 @@
  * 12-10-2014
  */
 
+// This is to determine how many cars we will need for a road trip.
+
 // Ask for how many can ride in the first car
 var vehicle1 = prompt("How many can ride in the first car?");
 console.log(vehicle1);
