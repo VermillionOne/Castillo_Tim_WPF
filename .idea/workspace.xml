@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="592d6b18-1445-4651-88d3-e59e51c96b4a" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Week 3/Conditionals_assignment/Problem_1/js/script.js" afterPath="$PROJECT_DIR$/Week 3/Conditionals_assignment/Problem_1/js/script.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Week 3/Conditionals_assignment/Problem_3/js/script.js" afterPath="$PROJECT_DIR$/Week 3/Conditionals_assignment/Problem_3/js/script.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Castillo_Tim_WPF.iws" />
     <ignored path=".idea/workspace.xml" />
