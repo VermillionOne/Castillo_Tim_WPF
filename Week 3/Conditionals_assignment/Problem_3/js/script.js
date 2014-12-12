@@ -9,13 +9,17 @@
 
 // Ask if the whether outside is frightful
 var weather	= prompt("Is the weather outside frightful?\n\nPlease answer using 'true' or 'false'");
+// Check variable for populated answer
 if (weather === "") {
+	// if the answer is not populated, ask again
 	var weather = prompt("Is the weather outside frightful?\n\nPlease answer using 'true' or 'false'\n\nPlease provide an answer or this will not work.");
 };
 console.log(weather);
 // Ask if it is Christmas Eve
 var date = prompt("Is today Christmas Eve?\n\nPlease answer using 'true' or 'false'");
+// Check variable for populated answer
 if (date === "") {
+	// if the answer is not populated, ask again
 	var date = prompt("Is today Christmas Eve?\n\nPlease answer using 'true' or 'false'\n\nPlease provide an answer or this will not work.");
 };
 console.log(date);
