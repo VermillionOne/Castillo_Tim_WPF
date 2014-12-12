@@ -19,11 +19,15 @@ if (vehicle2 === "") {
 	var vehicle2 = prompt("How many can ride in the second car?\n\nPlease provide a number or this will not work.");
 };
 console.log(vehicle2);
-var vehicles = vehicle2 + vehicle1;
-console.log();
+var vehicles = parseInt(vehicle2) + parseInt(vehicle1);
+console.log(vehicles);
 // Ask for the number of passengers
 var numPassengers = prompt("How many people are going?");
+if (numPassengers === "") {
+	var numPassengers = prompt("How many people are going?\n\nPlease provide a number or this will not work.");
+};
 console.log(numPassengers);
+
 // Figure out how many vehicles we will need
 if (numPassengers > vehicle1 && numPassengers <= vehicles) {
 	var result = "We will need both cars.";
