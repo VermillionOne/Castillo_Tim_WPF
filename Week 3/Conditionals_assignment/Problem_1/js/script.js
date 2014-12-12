@@ -5,23 +5,18 @@
  * 12-10-2014
  */
 
-/*
-We are going on a road trip and we need to decide how many vehicles to take.
-We have four vehicles that we are able to use. Depending on the amount of people going, which vehicles will we need?
+// Ask for how many can ride in the first car
+var vehicle1 = prompt("How many can ride in the first car?");
+console.log(vehicle1);
+// Ask for how many can ride in the second car
+var vehicle2 = prompt("How many can ride in the second car?");
+console.log(vehicle2);
+// Ask for the number of passengers
+var numPassengers = prompt("How many people are going?");
+console.log(numPassengers);
+// Figure out how many vehicles we will need
+var result = (numPassengers > vehicle1) ? "We will need both cars." : "We only need one car.";
+alert(result);
+console.log(result);
 
-    The amount of people each car can carry is as follows:
 
-    We should also try to keep gas usage lower. In order to use the least amount of gasoline, we should use the cars with the highest Miles Per Gallon.
- */
-
-var vehicle1 = prompt("What is the first vehicle?");
-var vehicle2 = prompt("What is the second vehicle?");
-
-var mileage1 = prompt("What is the mileage for " + vehicle1 + "?");
-var mileage2 = prompt("What is the mileage for " + vehicle2 + "?");
-var mileage3 = prompt("What is the mileage for " + vehicle3 + "?");
-var mileage4 = prompt("What is the mileage for " + vehicle4 + "?");
-
-var numPassengers = "How many people are going?";
-
-var numMiles = "How many miles long is the trip?";
