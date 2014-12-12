@@ -2,7 +2,7 @@
  * Tim Castillo
  * SDI Section #03WDD
  * Conditionals_Assignment Problem 1 - Personal - Week #3
- * 12-10-2014
+ * 12-11-2014
  */
 
 // This is to determine how many cars we will need for a road trip.
