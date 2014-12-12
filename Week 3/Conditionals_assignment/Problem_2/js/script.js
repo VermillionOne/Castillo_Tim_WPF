@@ -37,6 +37,7 @@ if(width > maxSize || height > maxSize){
 	if(width > height){
 		// Perform conversion for height
 		var newSide = height * maxSize / width;
+		var newSide = newSide.toFixed(0);
 		console.log(newSide);
 		// Create the resulting solution string
 		var result = "The image has been resized to " + maxSize + "x" + newSide + " pixel resolution.";
@@ -46,6 +47,7 @@ if(width > maxSize || height > maxSize){
 	}else{
 		// Perform conversion for width
 		var newSide = width * maxSize / height;
+		var newSide = newSide.toFixed(0);
 		console.log(newSide);
 		// Create the resulting solution string
 		var result = "The image has been resized to " + newSide + "x" + maxSize + " pixel resolution.";
