@@ -23,7 +23,12 @@ console.log(vehicle2);
 var numPassengers = prompt("How many people are going?");
 console.log(numPassengers);
 // Figure out how many vehicles we will need
+
+
+/*
 var result = (numPassengers > vehicle1) ? "We will need both cars." : "We only need one car.";
+*/
+
 alert(result);
 console.log(result);
 
