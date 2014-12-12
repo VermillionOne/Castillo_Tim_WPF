@@ -9,9 +9,15 @@
 
 // Ask if the whether outside is frightful
 var weather	= prompt("Is the weather outside frightful?\n\nPlease answer using 'true' or 'false'");
+if (weather === "") {
+	var weather = prompt("Is the weather outside frightful?\n\nPlease answer using 'true' or 'false'\n\nPlease provide an answer or this will not work.");
+};
 console.log(weather);
 // Ask if it is Christmas Eve
 var date = prompt("Is today Christmas Eve?\n\nPlease answer using 'true' or 'false'");
+if (date === "") {
+	var date = prompt("Is today Christmas Eve?\n\nPlease answer using 'true' or 'false'\n\nPlease provide an answer or this will not work.");
+};
 console.log(date);
 //make sure that the strings will match our test exactly by making them both lowercase
 var weatherLc = weather.toLowerCase();
