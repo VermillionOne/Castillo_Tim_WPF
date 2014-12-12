@@ -8,16 +8,53 @@
 // To determing whether an image needs resized
 
 // Ask the user for the width of the image in pixels
-var imageWidth = prompt("What is the width of the image in pixels?");
-console.log(imageWidth);
+var width = prompt("What is the width of the image in pixels?");
+console.log(width);
+
 // Ask the user for the height of the image in pixels
-var imageHeight = prompt("What is the Height of the image?");
-console.log(imageHeight);
+var height = prompt("What is the Height of the image?");
+console.log(height);
+
 // Ask the user to set the minimum size
 var minSize = prompt("What is the minimum size the longest side must be in pixels?");
 console.log(minSize);
+
 // Ask the user to set the maximum size
 var maxSize = prompt("What is the maximum size the longest side must be in pixels?");
 console.log(maxSize);
 
-
+// Determine if either side is larger than "maxSize"
+if(width > maxSize || height > maxSize){
+	// Determine which side is largest
+	if(width > height){
+		// Perform conversion for height
+		var newSide = width * maxSize / height;
+		console.log(newSide);
+		// Create the resulting solution string
+		var result = "The image has been resized to " + maxSize + "x" + newSide + " pixel resolution.";
+		// Display the result
+		alert(result);
+		console.log(result);
+	}else{
+		// Perform conversion for width
+		var newSide = height * maxSize / width;
+		console.log(newSide);
+		// Create the resulting solution string
+		var result = "The image has been resized to " + newSide + "x" + maxSize + " pixel resolution.";
+		// Display the result
+		alert(result);
+		console.log(result);
+	}
+}else if(width < minSize && height < minSize){
+	// Extend width to minSize in result solution string
+	var result = "The image has been resized to " + minSize + "x" + height + " pixel resolution.";
+	// Display the result
+	alert(result);
+	console.log(result);
+}else{
+	// Define result solution string as the image is in the proper size range
+	var result = "The image is in the proper size range."
+	// Display the result
+	alert(result);
+	console.log(result);
+}
