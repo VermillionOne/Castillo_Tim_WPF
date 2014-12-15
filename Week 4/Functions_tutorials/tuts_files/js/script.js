@@ -2,11 +2,9 @@
  * Created by Vermillion on 12/12/14.
  */
 
-// Functions - Function Execution
+// Functions - Variable Scope
 
-function outptMsg(){
-    console.log("Hello World");
-}
+var width = 5;
 
 function calcArea(){
     var width = 20;
@@ -16,6 +14,4 @@ function calcArea(){
 }
 
 calcArea();
-calcArea();
-calcArea();
-
+console.log(width);
