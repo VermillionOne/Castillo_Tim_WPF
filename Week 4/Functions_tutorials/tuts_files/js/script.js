@@ -2,7 +2,7 @@
  * Created by Vermillion on 12/12/14.
  */
 
-// Functions - Basic Structure
+// Functions - Function Execution
 
 function outptMsg(){
     console.log("Hello World");
@@ -14,3 +14,8 @@ function calcArea(){
     var area = width * height;
     console.log(area);
 }
+
+calcArea();
+calcArea();
+calcArea();
+
