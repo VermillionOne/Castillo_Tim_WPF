@@ -5,7 +5,7 @@
 // Functions - While Loop
 
 
-console.log('-------------- Loops --------------')
+console.log('-------------- Loops --------------');
 
 var b = 10;  //sets up the index
 
@@ -14,7 +14,7 @@ while (b > 0){ // Checks the condition
     b--; //increments or decrements the index
 }
 
-console.log('-------------- Do While Loops --------------')
+console.log('-------------- Do While Loops --------------');
 
 
 var c = 10;
@@ -24,3 +24,9 @@ do{
     c--;
 }
 while(c > 0);
+
+console.log('-------------- For Loops --------------');
+
+for (var i = 10; i > 0; i --){
+    console.log(i + ' kegs on the wall.')
+}
