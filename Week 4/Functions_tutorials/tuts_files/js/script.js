@@ -2,16 +2,24 @@
  * Created by Vermillion on 12/12/14.
  */
 
-// Functions - Variable Scope
+// Functions - Parameters and Arguments
 
-var width = 5;
+/*
+calcArea(50, 20);
 
-function calcArea(){
-    var width = 20;
-    var height = 30;
-    var area = width * height;
+
+function calcArea(w, h){ //w=30, h=20
+    var area = w * h;
     console.log(area);
 }
+*/
 
-calcArea();
-console.log(width);
+function dogYears(age){
+    var dogYears = age * 7;
+    console.log("Sparky is " + dogYears + " years old.")
+}
+
+var age1 = 7;
+
+dogYears(3);
+dogYears(6);
