@@ -36,7 +36,7 @@ var weight = prompt("How much does the animal weigh in pounds?");
 // Invoke the function and gather the returned result
 var fatalStings = beeSting(weight);
 // Concatenate the results into a string.
-var result2 = "It takes " + fatalStings + " bee stings to kill an animal weighing " + weight + " pounds.";
+var result2 = "It takes about " + parseInt(fatalStings) + " bee stings to kill an animal weighing " + weight + " pounds.";
 
 console.log(result2);
 alert(result2);
