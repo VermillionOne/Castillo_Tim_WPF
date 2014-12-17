@@ -32,3 +32,12 @@ if(psi[0] === psi[1] && psi[2] === psi[3]){
 }
 // Print "result" to user
 alert(result);
+
+
+/*------- Finding the circumference of a circle -------*/
+
+var radius = prompt("What is the radius of the circle?");
+esfeeffeeefs
+function circumference(){
+
+}
