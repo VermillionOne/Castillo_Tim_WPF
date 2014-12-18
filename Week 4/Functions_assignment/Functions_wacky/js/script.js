@@ -18,13 +18,10 @@ var ornamentSize = prompt("How much distance will be allowed for each ornament?\
 console.log(ornamentSize);
 
 // Invoking the Lateral Surface area function
-var surfaceArea = lateralSurface(radius, height);
+var ornamentNumber = lateralSurface(radius, height, ornamentSize);
 
-// Invoking the function for the number of ornaments
-var ornamentNumber = ornaments(surfaceArea, ornamentSize);
-
-// This function is for finding the lateral surface area of the cone
-function lateralSurface(r, h){
+// This function is for finding the lateral surface area and number of ornaments for the Christmas tree
+function lateralSurface(r, h, size){
     // This is the first half of the Lateral Surface Area Formula
     var equation1 = (r * r) + (h * h);
     console.log(equation1);
@@ -34,18 +31,15 @@ function lateralSurface(r, h){
     // This is finding the full Lateral Surface Equation solution
     var equation2 = 3.14 * r * squareRoot;
     console.log(equation2);
-    return equation2; // returning lateral surface area value
-}
+    //return equation2; // returning lateral surface area value
 
-// Function for finding out the number of ornaments
-function ornaments(area, size){
-    // converting the square feet to inches
-    var areaInches =  area * 144;
-    console.log(areaInches);
-    // Dividing the tree surface area by the area needed for each ornament
-    var amount = areaInches / (size * size);
-    console.log(amount);
-    return parseInt(amount); // Returning the amount of ornaments
+	// converting the square feet to inches
+	var areaInches =  equation2 * 144;
+	console.log(areaInches);
+	// Dividing the tree surface area by the area needed for each ornament
+	var amount = areaInches / (size * size);
+	console.log(amount);
+	return parseInt(amount); // Returning the amount of ornaments
 }
 
 // Concatenate the result string
@@ -53,4 +47,3 @@ var result = "It will take " + ornamentNumber + " ornaments to dress the Christm
 // Display the result
 alert(result);
 console.log(result);
-
