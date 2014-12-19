@@ -28,14 +28,13 @@ console.log(month);
 var day = prompt("What day of the month were you born?");
 //Create a loop to verify the number for the day
 while (isNaN(day) || day === ""){
-    //prompy for day again
+    //prompt for day again
     day = prompt("Please enter the day of the month you were born.\n\nPlease enter a number only");
 }
 console.log(day);
 
 // Invoke the function to create the result
 var result = birthday(month, day, year);
-
 // Create a function to put together the date of birth
 function birthday(m, d, y){
     // Concatenating the parts in a string
