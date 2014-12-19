@@ -31,8 +31,6 @@ function lateralSurface(r, h, size){
     // This is finding the full Lateral Surface Equation solution
     var equation2 = 3.14 * r * squareRoot;
     console.log(equation2);
-    //return equation2; // returning lateral surface area value
-
 	// converting the square feet to inches
 	var areaInches =  equation2 * 144;
 	console.log(areaInches);

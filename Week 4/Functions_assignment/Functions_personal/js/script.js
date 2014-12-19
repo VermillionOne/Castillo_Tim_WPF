@@ -11,7 +11,7 @@
 // Anonymous function for finding if the item will ship today or tomorrow
 var shipment = function(hour){
     // Determine if the product was order before 3pm (15)
-    if(hour > 0 && hour < 15){
+    if(hour < 15){
         // If ordered before 3pm, the item will ship today
         var ship = "The item will ship today."
     } else {
