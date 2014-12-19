@@ -5,18 +5,25 @@
  * 12-17-2014
 */
 
-// A quick survey for the user.
 
-var name = prompt("Hello! What is your name?");
+// Ask the user for date of birth
 
-var survey = prompt("Thank you for visting our site,  " + name + "! We hope you enjoyed the experience.\n\nWould you be willing to take a quick survey?");
+// Ask for year born in
+var year = prompt("In what year were you born?");
+if (year = NaN){
 
-survey = str.toLowerCase(survey);
-
-answer(survey);
-
-function answer(i){
-    if(i != )
 }
+console.log(year);
+// Ask for birth month
+var month = prompt("In which month were you born?");
+console.log(month);
+// Ask for day of birth
+var day = prompt("What day of the month were you born?");
+console.log(day);
 
-if ()
+
+
+
+var birthday = function(m, d, y){
+
+}
