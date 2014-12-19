@@ -10,14 +10,18 @@
 
 // Ask for year born in
 var year = prompt("In what year were you born?");
+//Create a loop to verify the number for the year
 while (isNaN(year) || year === ""){
-    year prompt("Please enter the year you were born.\n\nPlease enter a number only");
+    //Prompt again for month
+    year = prompt("Please enter the year you were born.\n\nPlease enter a number only");
 }
 console.log(year);
 // Ask for birth month
 var month = prompt("In which month were you born?");
+//Create a loop to verify the number for the month
 while (isNaN(month) || month === ""){
-    month = prompt("Please enter the month you were born.\n\nPlease enter a number only");
+    //Prompt again for month
+    month = prompt("Please enter the month you were born.\n\nPlease enter a number only.");
 }
 console.log(month);
 // Ask for day of birth
@@ -27,8 +31,12 @@ while (isNaN(day) || day === ""){
 }
 console.log(day);
 
-birthday(month, day, year);
-
 function birthday(m, d, y){
-    return = m + " / " + d + " / " + y;
+    var date = "Your birthday is " + m + "/" + d + "/" + y + ".";
+    return(date);
 }
+
+var result = birthday(month, day, year);
+
+alert(result);
+console.log(result);
